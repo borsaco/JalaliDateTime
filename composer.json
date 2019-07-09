@@ -1,0 +1,23 @@
+{
+    "name": "borsaco/jalali-date-time",
+    "type": "library",
+    "description": "Jalali (Shamsi) DateTime class written in PHP, Supports year higher than 2038",
+    "keywords": ["date", "datetime", "jalali", "jalalidate", "jdatetime","shamsi","iran","farsi","persian","time"],
+    "homepage": "http://ericomgroup.com",
+    "license": "MIT",
+    "version": "1.0.0" ,
+    "authors": [
+        {
+          "name": "Alireza Seddighi",
+          "email": "seddighi@borsaco.ir",
+          "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {"Borsaco\\jalaliDateTime\\": ""}
+    },
+    "minimum-stability": "dev"
+}
